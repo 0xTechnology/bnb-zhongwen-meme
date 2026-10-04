@@ -7,24 +7,39 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="bg"></div>
+  <div class="ticker">
+    <div class="ticker-track">
+      <span>中文人生 · 建设 BNB · 一切都是为了BNB · 中文 meme 的尽头是 BNB · 币安链 · 开始建设 · </span>
+      <span>中文人生 · 建设 BNB · 一切都是为了BNB · 中文 meme 的尽头是 BNB · 币安链 · 开始建设 · </span>
+    </div>
+  </div>
+
   <main>
     <p class="tag">币安 · 中文meme</p>
     <h1>中文人生</h1>
     <h2>建设 BNB</h2>
     <p class="slogan">一切都是为了 BNB</p>
+
     <div class="card">
       <p>中文人生，就是把每一天都拿来建设。</p>
       <p>中文 meme 的尽头，是 BNB。</p>
       <p>币安链上，一切叙事都指向同一句话：</p>
       <strong>一切都是为了 BNB</strong>
     </div>
+
+    <div class="bar-wrap">
+      <div class="bar-label">
+        <span>建设进度</span>
+        <span id="pct">0%</span>
+      </div>
+      <div class="bar">
+        <div id="fill" class="fill"></div>
+      </div>
+    </div>
+
     <button id="build">开始建设</button>
     <p id="log" class="log">等待建设指令…</p>
-    <footer>
-      中文人生 · 建设 · BNB · 币安 · 中文meme<br />
-      一切都是为了BNB
-    </footer>
+    <footer>中文人生 · 建设 · BNB · 币安 · 中文meme<br />一切都是为了BNB</footer>
   </main>
   <script src="app.js"></script>
 </body>
